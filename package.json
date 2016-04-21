@@ -1,0 +1,27 @@
+{
+  "name": "adaday",
+  "version": "0.0.1",
+  "description": "Daily curated video ad from around the world to enhance workers' happiness, productivity and creativity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Coaxial/adaday.git"
+  },
+  "keywords": [
+    "ad",
+    "advertising",
+    "video"
+  ],
+  "author": "coaxial <py@poujade.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Coaxial/adaday/issues"
+  },
+  "homepage": "https://gitlab.com/Coaxial/adaday#README",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
