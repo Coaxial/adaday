@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const mocha = require('gulp-spawn-mocha');
 
 gulp.task('default', () => {
-  // place code for your default task here
+  return gulp.start('test');
 });
 
 gulp.task('test', () => {
