@@ -1,10 +1,13 @@
-var gulp = require('gulp');
+"use strict";
 
-gulp.task('default', function() {
-  // place code for your default task here
+const gulp = require('gulp');
+const mocha = require('gulp-spawn-mocha');
+
+gulp.task('default', () => {
+  return gulp.start('test');
 });
 
-gulp.task('test', function() {
-  console.log('No test runner configured.');
-  process.exit(1);
+gulp.task('test', () => {
+  return gulp.src(['test/test.js'], {read: false})
+    .pipe(mocha());
 });
