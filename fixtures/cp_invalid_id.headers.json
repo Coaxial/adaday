@@ -1,0 +1,9 @@
+{
+    "server": "nginx",
+    "date": "Sat, 23 Apr 2016 14:44:14 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "vary": "Accept-Language, Cookie",
+    "content-language": "ca"
+}
