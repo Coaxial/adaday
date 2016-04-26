@@ -12,7 +12,7 @@ describe('configReader', () => {
   describe('#get', () => {
     context('with an invalid config variable', () => {
       it('throws an error', () => {
-        return assert.throws(() => subject.get('publisher:channel'));
+        return assert.throws(() => subject.get('publisher:missing_var'));
       });
     });
 
