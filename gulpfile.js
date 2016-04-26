@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const gulp = require('gulp');
 const mocha = require('gulp-spawn-mocha');
@@ -25,8 +25,8 @@ gulp.task('lint', () => {
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('pre-cov', function () {
-  return gulp.src([lib_files, app_file])
+gulp.task('pre-cov', () => {
+  return gulp.src([lib_files])
     .pipe(istanbul({ includeUntested: true }))
     .pipe(istanbul.hookRequire());
 });

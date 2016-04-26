@@ -1,0 +1,134 @@
+{
+  "campaign": 3,
+  "total_rates": 0,
+  "duration": 31,
+  "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/800/850_005.jpg",
+  "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/800/850_005_preview.jpg",
+  "captions": [],
+  "id": 11010,
+  "title": "La sieste",
+  "extra_fields": [
+    {
+      "field_type": "CUS",
+      "order": 1,
+      "value": "Chocolat",
+      "name": "Produit"
+    },
+    {
+      "field_type": "CUS",
+      "order": 2,
+      "value": "Confiserie et chocolat",
+      "name": "Catégorie"
+    },
+    {
+      "field_type": "CUS",
+      "order": 3,
+      "value": "Cartoon",
+      "name": "Thèmes culturepub.fr"
+    },
+    {
+      "field_type": "CUS",
+      "order": 4,
+      "value": "Royaume-uni",
+      "name": "Pays"
+    },
+    {
+      "field_type": "CUS",
+      "order": 5,
+      "value": "Anglais",
+      "name": "Langue"
+    },
+    {
+      "field_type": "CUS",
+      "order": 6,
+      "value": "850_005.avi",
+      "name": "OriginalFilename"
+    },
+    {
+      "field_type": "CUS",
+      "order": 7,
+      "value": "Have a break",
+      "name": "Accroche"
+    },
+    {
+      "field_type": "CUS",
+      "order": 8,
+      "value": "Kit Kat",
+      "name": "Marque"
+    },
+    {
+      "field_type": "CUS",
+      "order": 9,
+      "value": "\"Stand by your man\" de Tammy Wynette",
+      "name": "Musique"
+    },
+    {
+      "field_type": "CUS",
+      "order": 10,
+      "value": "Dessin animé. Femme apporte du café et du kit kat à son mari qui fait la sieste.",
+      "name": "Résumé"
+    },
+    {
+      "field_type": "CUS",
+      "order": 11,
+      "value": "1991-00-00",
+      "name": "Date"
+    },
+    {
+      "field_type": "CUS",
+      "order": 12,
+      "value": "61-publication ok",
+      "name": "Etiquette Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 13,
+      "value": "45379",
+      "name": "ID Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 14,
+      "value": "J Walter Thompson",
+      "name": "Agence"
+    },
+    {
+      "field_type": "CUS",
+      "order": 15,
+      "value": "1991",
+      "name": "Année"
+    }
+  ],
+  "tags": [
+    "Noir et blanc",
+    "Poste de radio",
+    "Canapé",
+    "Réveil",
+    "Chocolat",
+    "Couple",
+    "Tasse de café",
+    "Mari et femme",
+    "Animation",
+    "Radio",
+    "Sieste",
+    "Dessin animé",
+    "Endormi"
+  ],
+  "highlighted": false,
+  "unpublishDate": null,
+  "description": null,
+  "embeddable": true,
+  "public_url": "pub-playlists-pre-roll/spots-dune-minute",
+  "publishDate": "2014-02-21 17:26:55",
+  "credits": null,
+  "onAirDate": null,
+  "creationDate": "2014-02-12 09:31:44",
+  "average_rate": 0.0,
+  "name": "La sieste",
+  "ads_blocked": false,
+  "uri": "850_005avi",
+  "thumbnail_url": "http://api.cbnews.webtv.flumotion.com/videos/11010/thumbnail.jpg?w=791cb5c9",
+  "vtt_url": null,
+  "livestream": false,
+  "video_image_url": "http://api.cbnews.webtv.flumotion.com/videos/11010/poster.jpg?w=f2762ad"
+}

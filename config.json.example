@@ -6,5 +6,10 @@
       "auth_token": "xxxxxxxxxxxxxxxxxxxxxxxx",
       "channel": "#general"
     }
+  },
+  "app": {
+    "publish_on": "weekdays",
+    "publish_at": "09:30",
+    "time_zone": "America/Toronto"
   }
 }

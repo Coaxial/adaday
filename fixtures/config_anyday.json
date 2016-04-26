@@ -1,0 +1,15 @@
+{
+  "publisher": {
+    "slack": {
+      "team_token": "TxTESTTKN",
+      "service_token": "BxTESTSVC",
+      "auth_token": "TestAuthTokenXxXxXxXxXxX",
+      "channel": "#test"
+    }
+  },
+  "app": {
+    "publish_on": "anyday",
+    "publish_at": "09:30",
+    "timezone": "America/Toronto"
+  }
+}
