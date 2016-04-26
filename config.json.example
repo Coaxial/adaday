@@ -1,0 +1,10 @@
+{
+  "publisher": {
+    "slack": {
+      "team_token": "T00000000",
+      "service_token": "B00000000",
+      "auth_token": "xxxxxxxxxxxxxxxxxxxxxxxx",
+      "channel": "#general"
+    }
+  }
+}

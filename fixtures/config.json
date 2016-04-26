@@ -1,0 +1,10 @@
+{
+  "publisher": {
+    "slack": {
+      "team_token": "TxTESTTKN",
+      "service_token": "BxTESTSVC",
+      "auth_token": "TestAuthTokenXxXxXxXxXxX",
+      "channel": "#test"
+    }
+  }
+}
