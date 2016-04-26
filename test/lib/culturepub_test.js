@@ -1,4 +1,4 @@
-/*eslint-env node, mocha */
+/* eslint-env  mocha */
 "use strict";
 
 const chai = require('chai');
@@ -7,9 +7,9 @@ const chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 const nock = require('nock');
 
-const cp = require('../../lib/culturepub.js').create();
+const subject = require('../../lib/culturepub.js').create();
 
-describe('CulturePub', () => {
+describe('culturePub', () => {
   const api_host = 'http://api.cbnews.webtv.flumotion.com';
   const endpoint_regex = /pods\/\d{3}\d?\d?/
 
@@ -24,7 +24,7 @@ describe('CulturePub', () => {
 
       it('has the URL to the video file', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'video_url',
           'http://wpc.cf8d.edgecastcdn.net/80CF8D/cbnews/video/mp4/hd/5316_017.mp4'
         );
@@ -32,7 +32,7 @@ describe('CulturePub', () => {
 
       it("has the advertiser's name", () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'advertiser_name',
           'Keiju'
         );
@@ -40,7 +40,7 @@ describe('CulturePub', () => {
 
       it('has the country', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'ad_country',
           'Finlande'
         );
@@ -48,7 +48,7 @@ describe('CulturePub', () => {
 
       it('has the year', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'ad_year',
           '1996'
         );
@@ -56,7 +56,7 @@ describe('CulturePub', () => {
 
       it('has the agency', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'ad_agency',
           'Hasan & Partners'
         );
@@ -64,7 +64,7 @@ describe('CulturePub', () => {
 
       it('has the director', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'ad_director',
           'Pehr Seth'
         );
@@ -72,7 +72,7 @@ describe('CulturePub', () => {
 
       it('has the title', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'ad_title',
           'Summerdress'
         );
@@ -93,7 +93,7 @@ describe('CulturePub', () => {
       
       it('retries', () => {
         return assert.eventually.deepPropertyVal(
-          cp.getAd(),
+          subject.getAd(),
           'ad_title',
           'Summerdress'
         );
@@ -109,7 +109,7 @@ describe('CulturePub', () => {
       });
 
       it('rejects the promise', () => {
-        return assert.isRejected(cp.getAd());
+        return assert.isRejected(subject.getAd());
       });
     });
   });  
