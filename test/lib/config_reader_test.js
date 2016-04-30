@@ -16,7 +16,7 @@ describe('configReader', () => {
       });
     });
 
-    context('woth a valid config variable', () => {
+    context('with a valid config variable', () => {
       it('returns the requested variable', () => {
         return assert.equal(subject.get('publisher:slack:team_token'), 'TxTESTTKN');
       });

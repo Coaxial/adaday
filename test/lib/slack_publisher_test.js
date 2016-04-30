@@ -11,7 +11,7 @@ const nock = require('nock');
 
 const subject = proxyquire(
   '../../lib/slack_publisher.js', {
-    './config_reader': testHelper.mocks.configReader
+    './config_reader': testHelper.mocks.configReader.weekdays
   }
 ).create();
 
