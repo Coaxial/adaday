@@ -1,6 +1,12 @@
-image: node:4.4.3
-
-all_tests:
+.node_template: &defaults
   script:
     - npm install
     - npm run ci
+
+node_v4:
+  image: node:4
+  <<: *defaults
+
+node_v6:
+  image: node:6
+  <<: *defaults
