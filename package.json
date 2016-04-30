@@ -1,7 +1,7 @@
 {
   "name": "adaday",
   "version": "0.0.1",
-  "description": "Daily curated video ads from around the world to enhance workers' happiness, productivity and creativity.",
+  "description": "Daily random video ads from around the world to enhance workers' happiness, productivity and creativity.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test",
