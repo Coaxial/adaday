@@ -59,3 +59,11 @@ gulp.task('lint_and_test', (done) => {
     done
   );
 });
+
+gulp.task('ci', (done) => {
+  return runSequence(
+    'lint',
+    'cov',
+    done
+  );
+});
