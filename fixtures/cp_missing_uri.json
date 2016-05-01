@@ -1,0 +1,114 @@
+{
+  "campaign": null,
+  "total_rates": 0,
+  "duration": 44,
+  "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/60300/60354_002.jpg",
+  "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/60300/60354_002_preview.jpg",
+  "captions": [],
+  "id": 26376,
+  "title": "Choose colorfully ",
+  "extra_fields": [
+    {
+      "field_type": "CUS",
+      "order": 1,
+      "value": "Apple",
+      "name": "Annonceur"
+    },
+    {
+      "field_type": "CUS",
+      "order": 2,
+      "value": "Vêtements et accessoires",
+      "name": "Catégorie"
+    },
+    {
+      "field_type": "CUS",
+      "order": 3,
+      "value": "Esthétique,Quand la musique est bonne",
+      "name": "Thèmes culturepub.fr"
+    },
+    {
+      "field_type": "CUS",
+      "order": 4,
+      "value": "International",
+      "name": "Pays"
+    },
+    {
+      "field_type": "CUS",
+      "order": 5,
+      "value": "Anglais",
+      "name": "Langue"
+    },
+    {
+      "field_type": "CUS",
+      "order": 6,
+      "value": "60354_002.mp4",
+      "name": "OriginalFilename"
+    },
+    {
+      "field_type": "CUS",
+      "order": 7,
+      "value": "Présentation de différents modèles de l'Apple Watch. ",
+      "name": "Commentaires CulturePub"
+    },
+    {
+      "field_type": "CUS",
+      "order": 8,
+      "value": "Apple Watch",
+      "name": "Marque"
+    },
+    {
+      "field_type": "CUS",
+      "order": 9,
+      "value": "Présentation d'une sélection de différents modèles d'Apple Watch. Musique. Couleurs. Esthétique ",
+      "name": "Résumé"
+    },
+    {
+      "field_type": "CUS",
+      "order": 10,
+      "value": "2015-00-00",
+      "name": "Date"
+    },
+    {
+      "field_type": "CUS",
+      "order": 11,
+      "value": "61-publication ok",
+      "name": "Etiquette Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 12,
+      "value": "197456",
+      "name": "ID Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 13,
+      "value": "2015",
+      "name": "Année"
+    }
+  ],
+  "tags": [
+    "Couleur",
+    "Cadran",
+    "Apple Watch",
+    "Bracelet",
+    "Esthétisme"
+  ],
+  "highlighted": false,
+  "unpublishDate": null,
+  "description": null,
+  "embeddable": true,
+  "public_url": "",
+  "publishDate": "2015-09-10 08:56:55",
+  "credits": null,
+  "onAirDate": null,
+  "creationDate": "2015-09-10 08:57:34",
+  "average_rate": 0.0,
+  "name": "Choose colorfully ",
+  "ads_blocked": false,
+  "uri": "choose-colorfully",
+  "thumbnail_url": "http://api.cbnews.webtv.flumotion.com/videos/26376/thumbnail.jpg?w=dffb76e4",
+  "vtt_url": null,
+  "livestream": false,
+  "video_image_url": "http://api.cbnews.webtv.flumotion.com/videos/26376/poster.jpg?w=75299227"
+}
