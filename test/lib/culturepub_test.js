@@ -100,6 +100,23 @@ describe('culturePub', () => {
           );
         });
       });
+
+      context('when the uri field is missing', () => {
+        beforeEach(function mockApi() {
+          nock(api_host)
+            .get(endpoint_regex)
+            .query({extended: true})
+            .replyWithFile(200, 'fixtures/cp_missing_uri.json');
+        });
+
+        it('returns a valid video_url anyway', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'video_url',
+            'http://wpc.cf8d.edgecastcdn.net/80CF8D/cbnews/video/mp4/hd/60354_002.mp4'
+          );
+        });
+      });
     });
 
     context('with an invalid ID', () => {
