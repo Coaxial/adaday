@@ -4,7 +4,8 @@ const debug = require('debug')('app');
 const adADay = require('./lib/adaday.js').create();
 
 const runBot = function runBot() {
-  debug('App started');
+  debug('AdADay started');
+  debug('Waiting for the right moment to post');
   return adADay.run();
 }
 
