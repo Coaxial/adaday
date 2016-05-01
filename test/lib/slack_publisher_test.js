@@ -74,7 +74,7 @@ describe('slackPublisher', () => {
         const expected_payload = {
           channel: '#test',
           username: 'AdADay',
-          text: "Today's random ad is now available, watch it while it's hot!\n_Bot by @pierre, source code: <https://github.com/coaxial/adaday>._",
+          text: "Today's random ad has been chosen, watch it while it's hot!\n_Bot by @pierre — <https://github.com/coaxial/adaday|source code>_",
           icon_emoji: ':tv:',
           attachments: [
             {
