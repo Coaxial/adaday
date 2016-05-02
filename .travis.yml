@@ -10,5 +10,5 @@ before_script:
 script: gulp lint_and_test
 
 after_success:
-  - ./node_modules/.bin/jscoverage lib lib-cov
+  - ./node_modules/.bin/istanbul cover test/**/*_test.js
   - ./node_modules/.bin/mocha test/**/*_test.js -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
