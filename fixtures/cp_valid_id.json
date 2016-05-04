@@ -91,6 +91,12 @@
       "order": 14,
       "value": "1996",
       "name": "Année"
+    },
+    {
+      "field_type": "CUS",
+      "order": 15,
+      "value": "Beurre",
+      "name": "Produit"
     }
   ],
   "tags": [

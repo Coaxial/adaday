@@ -22,6 +22,7 @@ describe('slackPublisher', () => {
     beforeEach(function assignTestAd() {
       test_ad = {
         video_url: 'https://example.com/video.mp4',
+        image_url: 'http://example.com/image.jpg',
         advertiser_name: 'Test brand',
         ad_title: 'Test ad',
         ad_country: 'Testlandia',
@@ -80,7 +81,8 @@ describe('slackPublisher', () => {
             {
               title: 'Test brand: Test ad',
               title_link: 'https://example.com/video.mp4',
-              text: 'Originally aired in 1998, in Testlandia. Directed by Test Mctesty, created by Test agency.'
+              text: 'Originally aired in 1998, in Testlandia. Directed by Test Mctesty, created by Test agency.',
+              image_url: 'http://example.com/image.jpg'
             }
           ]
         };

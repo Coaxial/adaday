@@ -82,6 +82,31 @@ describe('culturePub', () => {
             'Summerdress'
           );
         });
+
+        it('has the thumbnail URL', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'image_url',
+            'http://static.culturepub.fr/assets/2014/10/poster-7777-keiju-beurre-summerdress-236x132.jpg'
+          );
+        });
+      });
+
+      context('when the metadata has diacritics', () => {
+        beforeEach(function mockApi() {
+          nock(api_host)
+            .get(endpoint_regex)
+            .query({extended: true})
+            .replyWithFile(200, 'fixtures/cp_diacritics.json')
+        });
+
+        it('removes diacritics from the thumbnail URL', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'image_url',
+            'http://static.culturepub.fr/assets/2014/10/poster-4606-la-vache-qui-rit-apericube-la-reception-236x132.jpg'
+          );
+        });
       });
 
       context('when there is a property missing', () => {
@@ -97,6 +122,14 @@ describe('culturePub', () => {
             subject.getAd(),
             'ad_director',
             'Unknown'
+          );
+        });
+
+        it('has the thumbnail URL', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'image_url',
+            'http://static.culturepub.fr/assets/2014/10/poster-11010-kit-kat-la-sieste-236x132.jpg'
           );
         });
       });
