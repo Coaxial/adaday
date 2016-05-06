@@ -72,6 +72,11 @@ could use a binary search to minimize the number of API hits but the extra
 second or two it takes to get a valid id isn't a problem yet, and the API
 doesn't seem to be rate limited.
 
+Some results are episodes of the show or test dummies. I filter them out and
+get a new one if I detect the result isn't an ad. This is done by checking
+whether a property that I (empirically) found only to exist on valid ads is
+present.
+
 Once a valid ID has been found, the metadata is formatted into an ad object and
 returned for a publisher to consume.
 

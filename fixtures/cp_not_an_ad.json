@@ -1,0 +1,108 @@
+{
+  "campaign": 3,
+  "total_rates": 0,
+  "duration": 156,
+  "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/80400/80462.jpg",
+  "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/80400/80462_preview.jpg",
+  "captions": [],
+  "id": 14736,
+  "title": " \"Last call\" réinvente la terreur au cinéma",
+  "extra_fields": [
+    {
+      "field_type": "CUS",
+      "order": 1,
+      "value": "1",
+      "name": "Diffusions - Numéro de chapitre"
+    },
+    {
+      "field_type": "CUS",
+      "order": 2,
+      "value": "Culturepub",
+      "name": "Diffusions - Emission"
+    },
+    {
+      "field_type": "CUS",
+      "order": 3,
+      "value": "L'émission - Culturepub 103",
+      "name": "Série"
+    },
+    {
+      "field_type": "CUS",
+      "order": 4,
+      "value": "80462.avi",
+      "name": "OriginalFilename"
+    },
+    {
+      "field_type": "CUS",
+      "order": 5,
+      "value": "Le premier film d'horreur interactif au cinéma. Une idée de  la chaîne 13th Street : un spectateur dont le numéro de téléphone a été tiré au hasard est invité à aider la protagoniste d'un court métrage à fuir le tueur qui est à ses trousses. Un sujet de Charlotte Bricard",
+      "name": "Commentaires CulturePub"
+    },
+    {
+      "field_type": "CUS",
+      "order": 6,
+      "value": "167508",
+      "name": "Diffusions - ID des spots"
+    },
+    {
+      "field_type": "CUS",
+      "order": 7,
+      "value": "L'événement",
+      "name": "Diffusions - Type de chapitre"
+    },
+    {
+      "field_type": "CUS",
+      "order": 8,
+      "value": "\"l'événement\"\r\n\r\n\r\n\r\n\r\n",
+      "name": "Résumé"
+    },
+    {
+      "field_type": "CUS",
+      "order": 9,
+      "value": "2010-03-14",
+      "name": "Date"
+    },
+    {
+      "field_type": "CUS",
+      "order": 10,
+      "value": "63-publication émission ok",
+      "name": "Etiquette Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 11,
+      "value": "167861",
+      "name": "ID Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 12,
+      "value": "2010",
+      "name": "Année"
+    }
+  ],
+  "tags": [
+    "Terreur",
+    "Interactivité",
+    "Horreur",
+    "Cinéma",
+    "Téléphone  portable"
+  ],
+  "highlighted": false,
+  "unpublishDate": null,
+  "description": null,
+  "embeddable": true,
+  "public_url": "test-pre-roll-jorge",
+  "publishDate": "2014-05-09 10:48:16",
+  "credits": null,
+  "onAirDate": null,
+  "creationDate": "2014-03-15 04:47:54",
+  "average_rate": 0.0,
+  "name": " \"Last call\" réinvente la terreur au cinéma",
+  "ads_blocked": false,
+  "uri": "80462avi",
+  "thumbnail_url": "http://api.cbnews.webtv.flumotion.com/videos/14736/thumbnail.jpg?w=73b0d221",
+  "vtt_url": null,
+  "livestream": false,
+  "video_image_url": "http://api.cbnews.webtv.flumotion.com/videos/14736/poster.jpg?w=d4139581"
+}
