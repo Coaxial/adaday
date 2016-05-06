@@ -1,0 +1,113 @@
+{
+  "campaign": 3,
+  "total_rates": 0,
+  "duration": 43,
+  "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/1900/1982_017.jpg",
+  "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/1900/1982_017_preview.jpg",
+  "captions": [],
+  "id": 4606,
+  "title": "La réception",
+  "extra_fields": [
+    {
+      "field_type": "CUS",
+      "order": 1,
+      "value": "Apéricube",
+      "name": "Produit"
+    },
+    {
+      "field_type": "CUS",
+      "order": 2,
+      "value": "Produits laitiers",
+      "name": "Catégorie"
+    },
+    {
+      "field_type": "CUS",
+      "order": 3,
+      "value": "Pétasses et enfoirés",
+      "name": "Thèmes culturepub.fr"
+    },
+    {
+      "field_type": "CUS",
+      "order": 4,
+      "value": "France",
+      "name": "Pays"
+    },
+    {
+      "field_type": "CUS",
+      "order": 5,
+      "value": "Français",
+      "name": "Langue"
+    },
+    {
+      "field_type": "CUS",
+      "order": 6,
+      "value": "1982_017.avi",
+      "name": "OriginalFilename"
+    },
+    {
+      "field_type": "CUS",
+      "order": 7,
+      "value": "La vache qui rit",
+      "name": "Marque"
+    },
+    {
+      "field_type": "CUS",
+      "order": 8,
+      "value": "Réception. Des invités partent et montent dans une voiture de luxe. Femme en fourrure ouvre son sac et le vide. Elle a volé des apéricubes et en fait l'éloge. Plus tard, chauffeur trouve un apéricube sur le sol et se moque de la femme. ",
+      "name": "Résumé"
+    },
+    {
+      "field_type": "CUS",
+      "order": 9,
+      "value": "1973-00-00",
+      "name": "Date"
+    },
+    {
+      "field_type": "CUS",
+      "order": 10,
+      "value": "Gulli,61-publication ok",
+      "name": "Etiquette Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 11,
+      "value": "41057",
+      "name": "ID Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 12,
+      "value": "1973",
+      "name": "Année"
+    }
+  ],
+  "tags": [
+    "Luxe",
+    "Chauffeur",
+    "Gourmandise",
+    "Dérision",
+    "Snobisme",
+    "Moquerie",
+    "Imitation",
+    "Riche",
+    "Moqueur",
+    "Voiture"
+  ],
+  "highlighted": false,
+  "unpublishDate": null,
+  "description": null,
+  "embeddable": true,
+  "public_url": "pub-playlists-pre-roll/spots-dune-minute",
+  "publishDate": "2014-02-22 08:17:06",
+  "credits": null,
+  "onAirDate": null,
+  "creationDate": "2014-02-08 04:07:24",
+  "average_rate": 0.0,
+  "name": "La réception",
+  "ads_blocked": false,
+  "uri": "1982_017avi",
+  "thumbnail_url": "http://api.cbnews.webtv.flumotion.com/videos/4606/thumbnail.jpg?w=3e1ad497",
+  "vtt_url": null,
+  "livestream": false,
+  "video_image_url": "http://api.cbnews.webtv.flumotion.com/videos/4606/poster.jpg?w=b0a7236d"
+}

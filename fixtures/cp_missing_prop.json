@@ -10,12 +10,6 @@
   "extra_fields": [
     {
       "field_type": "CUS",
-      "order": 1,
-      "value": "Chocolat",
-      "name": "Produit"
-    },
-    {
-      "field_type": "CUS",
       "order": 2,
       "value": "Confiserie et chocolat",
       "name": "Catégorie"
