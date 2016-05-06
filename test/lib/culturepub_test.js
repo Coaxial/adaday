@@ -185,5 +185,26 @@ describe('culturePub', () => {
         return assert.isRejected(subject.getAd());
       });
     });
+
+    context('with a video that is not an ad', () => {
+      beforeEach(function mockApi() {
+        nock(api_host)
+        .get(endpoint_regex)
+        .query({extended: true})
+        .replyWithFile(200, 'fixtures/cp_not_an_ad.json')
+
+        .get(endpoint_regex)
+        .query({extended: true})
+        .replyWithFile(200, 'fixtures/cp_valid_id.json');
+      });
+      
+      it('picks another one', () => {
+        return assert.eventually.deepPropertyVal(
+          subject.getAd(),
+          'ad_title',
+          'Summerdress'
+        );
+      });
+    });
   });  
 });
