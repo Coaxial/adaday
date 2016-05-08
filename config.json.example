@@ -1,4 +1,7 @@
 {
+  "api" : {
+    "min_score": 4
+  },
   "publisher": {
     "slack": {
       "team_token": "T00000000",
