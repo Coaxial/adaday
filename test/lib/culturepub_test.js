@@ -6,8 +6,14 @@ const assert = chai.assert;
 const chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 const nock = require('nock');
+const proxyquire = require('proxyquire');
+const testHelper = require('../test_helper.js').create();
 
-const subject = require('../../lib/culturepub.js').create();
+const subject = proxyquire(
+  '../../lib/culturepub.js', {
+    './config_reader.js': testHelper.mocks.configReader.weekdays
+  }
+).create();
 
 describe('culturePub', () => {
   const api_host = 'http://api.cbnews.webtv.flumotion.com';
@@ -24,7 +30,7 @@ describe('culturePub', () => {
           nock(api_host)
             .get(endpoint_regex)
             .query({extended: true})
-            .replyWithFile(200, 'fixtures/cp_valid_id.json')
+            .replyWithFile(200, 'fixtures/cp_valid_id.json');
         });
 
         it('has the URL to the video file', () => {
@@ -97,7 +103,7 @@ describe('culturePub', () => {
           nock(api_host)
             .get(endpoint_regex)
             .query({extended: true})
-            .replyWithFile(200, 'fixtures/cp_diacritics.json')
+            .replyWithFile(200, 'fixtures/cp_diacritics.json');
         });
 
         it('removes diacritics from the thumbnail URL', () => {
@@ -105,6 +111,44 @@ describe('culturePub', () => {
             subject.getAd(),
             'image_url',
             'http://static.culturepub.fr/assets/2014/10/poster-4606-la-vache-qui-rit-apericube-la-reception-236x132.jpg'
+          );
+        });
+      });
+
+      context('when the score is below the set threshold', () => {
+        beforeEach(function mockApi() {
+          nock(api_host)
+            .get(endpoint_regex)
+            .query({extended: true})
+            .replyWithFile(200, 'fixtures/cp_low_score.json')
+
+            .get(endpoint_regex)
+            .query({extended: true})
+            .replyWithFile(200, 'fixtures/cp_valid_id.json');
+        });
+
+        it('picks a new ad with a higher score', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'video_url',
+            'http://wpc.cf8d.edgecastcdn.net/80CF8D/cbnews/video/mp4/hd/5316_017.mp4'
+          );
+        });
+      });
+
+      context('when there are no votes cast for an ad', () => {
+        beforeEach(function mockApi() {
+          nock(api_host)
+            .get(endpoint_regex)
+            .query({extended: true})
+            .replyWithFile(200, 'fixtures/cp_no_votes.json')
+        });
+
+        it('ignores the threshold', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'video_url',
+            'http://wpc.cf8d.edgecastcdn.net/80CF8D/cbnews/video/mp4/hd/2847_131.mp4'
           );
         });
       });

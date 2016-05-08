@@ -1,6 +1,6 @@
 {
   "campaign": 3,
-  "total_rates": 0,
+  "total_rates": 3,
   "duration": 36,
   "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/5300/5316_017.jpg",
   "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/5300/5316_017_preview.jpg",
@@ -121,7 +121,7 @@
   "credits": null,
   "onAirDate": null,
   "creationDate": "2014-02-10 06:47:51",
-  "average_rate": 0,
+  "average_rate": 4.8923114345,
   "name": "Summerdress",
   "ads_blocked": false,
   "uri": "5316_017avi",

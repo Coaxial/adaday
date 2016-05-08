@@ -1,0 +1,122 @@
+{
+  "campaign": 3,
+  "total_rates": 0,
+  "duration": 20,
+  "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/2800/2847_131.jpg",
+  "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/2800/2847_131_preview.jpg",
+  "captions": [],
+  "id": 6250,
+  "title": "Le couple",
+  "extra_fields": [
+    {
+      "field_type": "CUS",
+      "order": 1,
+      "value": "Clear Pore",
+      "name": "Produit"
+    },
+    {
+      "field_type": "CUS",
+      "order": 2,
+      "value": "Articles de toilette",
+      "name": "Catégorie"
+    },
+    {
+      "field_type": "CUS",
+      "order": 3,
+      "value": "France",
+      "name": "Pays"
+    },
+    {
+      "field_type": "CUS",
+      "order": 4,
+      "value": "Français",
+      "name": "Langue"
+    },
+    {
+      "field_type": "CUS",
+      "order": 5,
+      "value": "2847_131.avi",
+      "name": "OriginalFilename"
+    },
+    {
+      "field_type": "CUS",
+      "order": 6,
+      "value": "Gedeon",
+      "name": "Production"
+    },
+    {
+      "field_type": "CUS",
+      "order": 7,
+      "value": "Neutrogena",
+      "name": "Marque"
+    },
+    {
+      "field_type": "CUS",
+      "order": 8,
+      "value": "Adolescente met crème sur peau de son visage. Voix off parle efficacité produit. Adolescente rejointe par garçon. Résultats visibles dès première semaine.",
+      "name": "Résumé"
+    },
+    {
+      "field_type": "CUS",
+      "order": 9,
+      "value": "1996-00-00",
+      "name": "Date"
+    },
+    {
+      "field_type": "CUS",
+      "order": 10,
+      "value": "61-publication ok",
+      "name": "Etiquette Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 11,
+      "value": "56074",
+      "name": "ID Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 12,
+      "value": "Louis Xiv",
+      "name": "Agence"
+    },
+    {
+      "field_type": "CUS",
+      "order": 13,
+      "value": "Trân AHN HUNG",
+      "name": "Rôles - Réalisateur"
+    },
+    {
+      "field_type": "CUS",
+      "order": 14,
+      "value": "1996",
+      "name": "Année"
+    }
+  ],
+  "tags": [
+    "Noir et blanc",
+    "Esthétique",
+    "Adolescent",
+    "Propreté",
+    "Couple",
+    "Acné",
+    "Jeunesse"
+  ],
+  "highlighted": false,
+  "unpublishDate": null,
+  "description": null,
+  "embeddable": true,
+  "public_url": "pub-playlists-pre-roll/spots-dune-minute",
+  "publishDate": "2014-02-21 18:19:28",
+  "credits": null,
+  "onAirDate": null,
+  "creationDate": "2014-02-09 12:13:39",
+  "average_rate": 0.0,
+  "name": "Le couple",
+  "ads_blocked": false,
+  "uri": "2847_131avi",
+  "thumbnail_url": "http://api.cbnews.webtv.flumotion.com/videos/6250/thumbnail.jpg?w=1ab5d160",
+  "vtt_url": null,
+  "livestream": false,
+  "video_image_url": "http://api.cbnews.webtv.flumotion.com/videos/6250/poster.jpg?w=af9afd17"
+}

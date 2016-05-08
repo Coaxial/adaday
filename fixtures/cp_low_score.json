@@ -1,0 +1,132 @@
+{
+  "campaign": 3,
+  "total_rates": 26,
+  "duration": 50,
+  "thumbnail_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/29100/29171.jpg",
+  "video_image_url_static": "http://ondemand2.cbnews.ondemand.flumotion.com/cbnews/ondemand2/images/29100/29171_preview.jpg",
+  "captions": [],
+  "id": 24303,
+  "title": "Roule moins vite",
+  "extra_fields": [
+    {
+      "field_type": "CUS",
+      "order": 1,
+      "value": "Institut Belge pour la sécurité routière - IBSR",
+      "name": "Annonceur"
+    },
+    {
+      "field_type": "CUS",
+      "order": 2,
+      "value": "Anti Vitesse",
+      "name": "Produit"
+    },
+    {
+      "field_type": "CUS",
+      "order": 3,
+      "value": "Grandes causes",
+      "name": "Catégorie"
+    },
+    {
+      "field_type": "CUS",
+      "order": 4,
+      "value": "Grandes causes toujours,Carte vermeille",
+      "name": "Thèmes culturepub.fr"
+    },
+    {
+      "field_type": "CUS",
+      "order": 5,
+      "value": "Belgique",
+      "name": "Pays"
+    },
+    {
+      "field_type": "CUS",
+      "order": 6,
+      "value": "29171.m4v",
+      "name": "OriginalFilename"
+    },
+    {
+      "field_type": "CUS",
+      "order": 7,
+      "value": "LOVO Films",
+      "name": "Production"
+    },
+    {
+      "field_type": "CUS",
+      "order": 8,
+      "value": "Sécurité routière",
+      "name": "Marque"
+    },
+    {
+      "field_type": "CUS",
+      "order": 9,
+      "value": "Une bande de jeunes débarquent dans une fête déjantée uniquement squattée par des vieux. Les seniors s'éclatent comme s'ils avaient 20 ans. Les jeunes sont déstabilisés. Typo: Le paradis c'est super. Quand on est vieux. \r\n\r\n",
+      "name": "Résumé"
+    },
+    {
+      "field_type": "CUS",
+      "order": 10,
+      "value": "2010-00-00",
+      "name": "Date"
+    },
+    {
+      "field_type": "CUS",
+      "order": 11,
+      "value": "61-publication ok,62-The Ad Show",
+      "name": "Etiquette Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 12,
+      "value": "162317",
+      "name": "ID Badoumba"
+    },
+    {
+      "field_type": "CUS",
+      "order": 13,
+      "value": "Saatchi & Saatchi",
+      "name": "Agence"
+    },
+    {
+      "field_type": "CUS",
+      "order": 14,
+      "value": "Pavel DUNDAS",
+      "name": "Rôles - Réalisateur"
+    },
+    {
+      "field_type": "CUS",
+      "order": 15,
+      "value": "2010",
+      "name": "Année"
+    }
+  ],
+  "tags": [
+    "Sécurité routière",
+    "Jeune",
+    "Humour noir",
+    "Vitesse",
+    "Fête",
+    "Vieux",
+    "étrange",
+    "Danse",
+    "Paradis",
+    "Senior",
+    "Sensibilisation"
+  ],
+  "highlighted": false,
+  "unpublishDate": null,
+  "description": "",
+  "embeddable": true,
+  "public_url": "pub-playlists-pre-roll/spots-dune-minute",
+  "publishDate": "2014-05-09 17:12:12",
+  "credits": null,
+  "onAirDate": null,
+  "creationDate": "2014-04-28 15:38:14",
+  "average_rate": 1.38461538461539,
+  "name": "Roule moins vite",
+  "ads_blocked": false,
+  "uri": "29171m4v",
+  "thumbnail_url": "http://api.cbnews.webtv.flumotion.com/videos/24303/thumbnail.jpg?w=7574d913",
+  "vtt_url": null,
+  "livestream": false,
+  "video_image_url": "http://api.cbnews.webtv.flumotion.com/videos/24303/poster.jpg?w=a6a190d1"
+}
