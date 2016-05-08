@@ -1,6 +1,6 @@
 {
   "name": "adaday",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Daily random video ads from around the world to enhance workers' happiness, productivity and creativity.",
   "main": "index.js",
   "scripts": {
