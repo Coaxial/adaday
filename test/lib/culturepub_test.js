@@ -117,11 +117,11 @@ describe('culturePub', () => {
           .replyWithFile(200, 'fixtures/cp_missing_prop.json');
         });
 
-        it('substitutes the missing value', () => {
+        it('returns an empty property', () => {
           return assert.eventually.deepPropertyVal(
             subject.getAd(),
             'ad_director',
-            'Unknown'
+            ''
           );
         });
 
