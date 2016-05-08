@@ -136,6 +136,23 @@ describe('culturePub', () => {
         });
       });
 
+      context('when there are no votes cast for an ad', () => {
+        beforeEach(function mockApi() {
+          nock(api_host)
+            .get(endpoint_regex)
+            .query({extended: true})
+            .replyWithFile(200, 'fixtures/cp_no_votes.json')
+        });
+
+        it('ignores the threshold', () => {
+          return assert.eventually.deepPropertyVal(
+            subject.getAd(),
+            'video_url',
+            'http://wpc.cf8d.edgecastcdn.net/80CF8D/cbnews/video/mp4/hd/2847_131.mp4'
+          );
+        });
+      });
+
       context('when there is a property missing', () => {
         beforeEach(function mockApi() {
           nock(api_host)
