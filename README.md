@@ -23,6 +23,12 @@ written as `hh:mm` can be set.
 The `timezone` will be used to interpret the `publish_at` time entered. A list
 of timezones is available [here](http://momentjs.com/timezone/).
 
+The `min_score` setting is the cut-off value under which the ad is rejected.
+Scores range from `0` to `5`. Valid values are `0`, `1`, `2`, `3`, `4`, `5`.
+The more recent videos have a score of 0.0 or 5.0; it seems there used to be a
+way to give a 1 to 5 stars rating to ads before that went away with a newer
+version of the website. It is only possible to "like" a video now, giving a
+rating of 5.0 without any granularity.
 
 You will need NodeJS (get it [here](https://nodejs.org/en/). Install the
 dependencies with `npm i` and run the app with `npm start`. As long as the app
