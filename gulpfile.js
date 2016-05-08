@@ -12,6 +12,7 @@ const test_files = 'test/**/*_test.js';
 const test_helper_file = 'test/test_helper.js';
 const lib_files = 'lib/**/*.js';
 const app_file = 'index.js';
+const fixtures_files = 'fixtures/**/*.json';
 const min_coverage = 90;
 
 gulp.task('default', () => {
@@ -47,7 +48,13 @@ gulp.task('test', () => {
 
 // Use this when developing
 gulp.task('dev', () => {
-  const all_js_files = [lib_files, test_files, test_helper_file, app_file];
+  const all_js_files = [
+    lib_files,
+    test_files,
+    test_helper_file,
+    fixtures_files,
+    app_file
+  ];
   gulp.watch(all_js_files, ['lint_and_test'], { read: false });
 });
 
