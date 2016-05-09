@@ -23,13 +23,13 @@ const testHelper = function testHelper() {
   const stub_payload = {
     channel: '#test',
     username: 'AdADay',
-    text: "Today's random ad is now available, watch it while it's hot!\n_Bot by @pierre, source code: <https://github.com/coaxial/adaday>._",
+    text: "Test text",
     icon_emoji: ':tv:',
     attachments: [
       {
         title: 'Test brand: Test ad',
         title_link: 'https://example.com/video.mp4',
-        text: 'Originally aired in 1998, in Testlandia. Directed by Test Mctesty, created by Test agency.'
+        text: 'Some test text about the video.'
       }
     ]
   };

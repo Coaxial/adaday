@@ -11,7 +11,7 @@ const nock = require('nock');
 
 const subject = proxyquire(
   '../../lib/slack_publisher.js', {
-    './config_reader': testHelper.mocks.configReader.weekdays
+    './config_reader.js': testHelper.mocks.configReader.weekdays
   }
 ).create();
 
@@ -75,14 +75,15 @@ describe('slackPublisher', () => {
         const expected_payload = {
           channel: '#test',
           username: 'AdADay',
-          text: "Today's random ad has been chosen, watch it while it's hot!\n_<https://github.com/coaxial/adaday|source code>_",
+          text: "Today's random ad is here!\n_<https://github.com/coaxial/adaday|Source code available>, please consider contributing._\n",
           icon_emoji: ':tv:',
           attachments: [
             {
               title: 'Test brand: Test ad',
               title_link: 'https://example.com/video.mp4',
-              text: 'Originally aired in 1998, in Testlandia. Directed by Test Mctesty. Created by Test agency.',
-              image_url: 'http://example.com/image.jpg'
+              text: "Originally aired in 1998, in Testlandia. Directed by Test Mctesty. Created by Test agency.\n_Note: while this ad has been shown on mainstream media, it was randomly chosen and wasn't reviewed; viewer discretion is advised._ _This isn't an endorsement nor a condonation of the products, brands, messages, ideas, groups, or actions implicitly or explicitly depicted within the ad._\n",
+              image_url: 'http://example.com/image.jpg',
+              mrkdwn_in: ['text']
             }
           ]
         };
@@ -98,14 +99,15 @@ describe('slackPublisher', () => {
           const expected_payload = {
             channel: '#test',
             username: 'AdADay',
-            text: "Today's random ad has been chosen, watch it while it's hot!\n_<https://github.com/coaxial/adaday|source code>_",
+            text: "Today's random ad is here!\n_<https://github.com/coaxial/adaday|Source code available>, please consider contributing._\n",
             icon_emoji: ':tv:',
             attachments: [
               {
                 title: 'Test brand: Test ad',
                 title_link: 'https://example.com/video.mp4',
-                text: '',
-                image_url: 'http://example.com/image.jpg'
+                text: "\n_Note: while this ad has been shown on mainstream media, it was randomly chosen and wasn't reviewed; viewer discretion is advised._ _This isn't an endorsement nor a condonation of the products, brands, messages, ideas, groups, or actions implicitly or explicitly depicted within the ad._\n",
+                image_url: 'http://example.com/image.jpg',
+                mrkdwn_in: ['text']
               }
             ]
           };
