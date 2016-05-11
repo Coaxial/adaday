@@ -1,7 +1,7 @@
 {
   "name": "adaday",
   "version": "0.2.0",
-  "description": "Daily random video ads from around the world to enhance workers' happiness, productivity and creativity.",
+  "description": "Because there aren't enough ads in your life already.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test",
@@ -20,9 +20,9 @@
   "author": "coaxial <py@poujade.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/Coaxial/adaday/issues"
+    "url": "https://github.com/Coaxial/adaday/issues"
   },
-  "homepage": "https://gitlab.com/Coaxial/adaday#README",
+  "homepage": "https://github.com/Coaxial/adaday",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",

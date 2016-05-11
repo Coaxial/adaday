@@ -2,6 +2,7 @@
 # :tv: AdADay
 
 Selects a random video ad daily from a curated list and posts it to Slack.
+Because there aren't enough ads in your life already.
 
 ## Features
 
