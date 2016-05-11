@@ -42,8 +42,10 @@ is running, it will post a new ad daily at the specified time.
 AdADay has been tested against NodeJS 4 LTS and NodeJS 6.
 
 Install gulp with `npm i -g gulp` and run `npm test`. Code coverage data is
-available with `gulp cov`. 100% of the code is covered by tests at the time of
-writing.
+available with `gulp cov`.
+
+The Gulp task also generates HTML coverage reports at
+`coverage/lcov-report/index.html`
 
 ## Technical details
 
@@ -68,7 +70,7 @@ and don't require the use of the `new` keyword.
 
 ### Modules
 
-#### Culture Pub [lib/culture_pub.js](lib/culturepub.js)
+#### Culture Pub ([lib/culture_pub.js](lib/culturepub.js))
 
 Communicates with the unofficial culturepub.fr API.
 
@@ -90,7 +92,7 @@ found to be unique to bona fide ads.
 
 Once a valid ID has been found, the relevant metadata is extracted and assembled into an object for a publisher to consume.
 
-#### Slack Publisher [lib/slack_publisher.js]](lib/slack_publisher.js)
+#### Slack Publisher ([lib/slack_publisher.js](lib/slack_publisher.js))
 
 Deals with the Slack webhook API.
 
@@ -100,7 +102,7 @@ payload. The payload is then posted to Slack's incoming-webhook endpoint.
 Some ads have more complete metadata than others. To avoid displaying missing
 metadata, the module assembles a text snippet based only on the available data.
 
-#### Config Reader [lib/config_reader.js](lib/config_reader.js)
+#### Config Reader ([lib/config_reader.js](lib/config_reader.js))
 
 Extracts the options set in the `config.json` file.
 
@@ -120,7 +122,7 @@ Instead, I throw an error if the app tries to fetch a configuration option that
 isn't set in the file. Since every setting is mandatory, it is acceptable for
 the app to crash on a missing option instead of inserting `undefined`s.
 
-#### AdADay [lib/adaday.js](lib/adaday.js)
+#### AdADay ([lib/adaday.js](lib/adaday.js))
 
 Checks if the current time matches the time set in `config.json`, fetches an ad
 via the `culturepub` modules and posts it via the `slack_publisher` module.
