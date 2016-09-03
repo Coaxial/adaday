@@ -13,6 +13,6 @@
   "app": {
     "publish_on": "weekdays",
     "publish_at": "09:30",
-    "timezone": "America/Toronto"
+    "time_zone": "America/Toronto"
   }
 }
