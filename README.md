@@ -19,12 +19,12 @@ Because there aren't enough ads in your life already.
 - Get your tokens from
 [Slack](https://my.slack.com/services/new/incoming-webhook/) and copy them into
 the `config.json` file.
-- Set your timezone, the days, and the time when AdADay should post to Slack.
+- Set your time zone, the days, and the time when AdADay should post to Slack.
 - The possible values for `publish_on` are `weekdays` or `anyday`.
 - `publish_at` is the time when the ad will be posted. Any time in 24h format
 written as `hh:mm` can be set.
-- The `timezone` will be used to interpret the `publish_at` time entered. A list
-of timezones is available [here](http://momentjs.com/timezone/).
+- The `time_zone` will be used to interpret the `publish_at` time entered. A
+  list of time zones is available [here](http://momentjs.com/time_zone/).
 - The `min_score` setting is the cut-off value under which the ad is rejected.
 Scores range from `0` to `5`. Valid values are `0`, `1`, `2`, `3`, `4`, `5`.
 The more recent videos have a score of 0.0 or 5.0; it seems there used to be a
